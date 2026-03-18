@@ -1,0 +1,20 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ink:   #0d0d0d;
+  --paper: #f4f0e8;
+  --rust:  #c1440e;
+  --fade:  #b8b0a0;
+}
+
+html, body {
+  height: 100%;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'DM Mono', monospace;
+  overflow: hidden;
+}
